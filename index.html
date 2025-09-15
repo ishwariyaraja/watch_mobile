@@ -4,36 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mobile store</title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    
 </head>
 <body>
-    <header>
-        <div class="logoimg">
-            <img src="img/header img.png" alt="">
+    <nav>
+        <div class="logo">
+            <h1>MiniStore.</h1>
         </div>
-        <nav>
-            <a href="#">home</a>
-            <a href="#">service</a>
-            <a href="#">products</a>
-            <a href="#">watches</a>
-            <a href="#">sale</a>
-            <a href="#">blog</a>
-            <a href="#">pages</a>
-
-        </nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">service</a></li>
+            <li><a href="#">products</a></li>
+            <li><a href="#">watches</a></li>
+            <li><a href="#">sale</a></li>
+            <li><a href="#">blog</a></li>
+            <!-- <ul class="drop"><li ><a href="#">pages</a></li>
+            </ul> -->
+        </ul>
         <div class="icon">
-            <a href=""><i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
-            <a href=""><i class="fa-solid fa-user"></i></a>
-            <a href=""><i class="fa-sharp fa-solid fa-cart-plus"></i></a>
+        <i class="fa-brands fa-sistrix"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-address-book"></i>
         </div>
-    </header>
-    <!-- one -->
+        <div class="bars">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+ 
    <section class="container">
     <div class="tittle">
-        <h1>Your Products <br>
+        <h1>Your Products 
             are great.
         </h1>
         <button class="shop"><a href="">shop product</a></button>
@@ -41,13 +44,12 @@
     <div class="banner-img">
         <img src="img/banner-image.png" alt="" height="400px" width="500px">
     </div>
-    
    </section>
    <!-- two -->
    <section class="contain-second">
     <div class="box">
         <h1> <i class="fa-regular fa-cart-shopping"></i> Free delivery</h1>
-        <p>Consectetur adipi elit <br>
+        <p>Consectetur adipi elit
         lorem ipsum dolor sit amet.</p>
     </div>
     <div class="box">
@@ -99,7 +101,7 @@
    <!-- ADD TO CARD PHONES -->
       <section class="productcontain-4">
     <div class="itemheading">
-        <h1>samart wataches</h1>
+        <p class="p">samart wataches</p>
         <p>
         <a href="#">go to shop</a>
         </p>
@@ -130,21 +132,20 @@
 <!-- container 2 -->
    <section class="container-2">
     <div class="tittle">
-        <h1>10% offers<br>
-            new year <br>
+        <h1>10% offers
+            new year 
             sale
         </h1>
         <button><a href="">shop product</a></button>
     </div>
     <div class="banner-img-1"> 
-        <img src="./img/insta-item3.jpg" alt="" height="400px" width="500px">
+        <img src="./img/insta-item3.jpg" alt="">
      </div>
    </section>
    <!-- end -->
-   
   <section class="productcontainer-5">
      <div class="itemheading">
-        <h1>samart wataches</h1>
+        <p class="p">samart wataches</p>
         <p>
         <a href="#">go to shop</a>
         </p>
@@ -211,9 +212,9 @@
  <footer class="footer-container">
     <div class="sub1">
         <img src="./img/header img.png" alt="">
-        <p>Nisi, purus vitae, ultrices nunc <br> 
-         Sit ac sit suscipit  hendrerit. <br>Gravida massa volutpat aenean <br>odio erat 
-         <br> nullam fringilla</p>
+        <p>Nisi, purus vitae, ultrices nunc 
+         Sit ac sit suscipit  hendrerit.Gravida massa volutpat aenean odio erat 
+          nullam fringilla</p>
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-invision"></i>
         <i class="fa-brands fa-twitter"></i>
@@ -269,6 +270,12 @@
   </div>
 </div>
 
- 
+  <script>
+     const menu = document.querySelector('.bars');
+     const menulist = document.querySelector('nav ul');
+      menu.addEventListener('click',()=>{
+       menulist.classList.toggle('showmenu');
+    })
+    </script>
 </body>
 </html>
