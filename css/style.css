@@ -97,6 +97,7 @@ body{
     justify-content: space-evenly;
     align-items:center ;
     background-color:#edf1f3 ;
+    width: 100%;
 }
 .tittle h1{
     max-width: 500px;
