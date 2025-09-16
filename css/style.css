@@ -6,6 +6,8 @@
 body{
     font-family: "lato" sans-serif;
     text-transform: capitalize;
+    max-width: 100%;
+    overflow-x: hidden;
   }
  nav{
     display: flex;
