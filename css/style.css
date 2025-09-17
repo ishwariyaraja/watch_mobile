@@ -383,7 +383,8 @@ body{
     background-color:#72aec8;
     color: #fff;
     border: none;
-    cursor: pointer;   
+    cursor: pointer;  
+    width: 100px; 
 }
 .eamil-box input:hover{
     background-color: #72aec8;
