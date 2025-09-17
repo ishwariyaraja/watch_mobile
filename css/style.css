@@ -102,8 +102,8 @@ body{
     width: 100%;
 }
 .tittle h1{
-    max-width: 500px;
-    font-size:70px;
+    max-width: 400px;
+    font-size:50px;
     font-weight: 400;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: #72aec8 2px 2px 2px rgba(6, 85, 103, 0.05);
@@ -146,8 +146,6 @@ body{
     justify-content: space-around;
     background-color:#fff;
     padding: 50px 20px;
-
-  
 }
 .box{
     /* border: 1px solid black; */
@@ -275,7 +273,7 @@ body{
 }
 .container-2{
      display: flex; 
-     background-color:gray;
+     background-color:rgba(128, 128, 128, 0.272);
      justify-content: center;
      justify-content: space-between;
      padding-top: 20px; 
@@ -288,12 +286,13 @@ body{
 .container-2{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     padding: 20px;
 }
 .tittle {
     max-width: 500px;
-     font-size:70px;
+     font-size:40px;
 }
 .banner-img-1 {
     width: 400px;
@@ -346,25 +345,13 @@ body{
 }
 /* mailbox container */
 .mailcontainer{
-    /* width:100% ;
-    height: 200px; */
+   padding:30px;
 }
 .smallcontain{
     background-color:#23272b;
-    width: 70%;
-    /* height: 200px;  */
-    /* margin-top: 80px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto; */
+    width: 80%;
     margin: 20px auto;
-    /* display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    align-items:center ;
-    align-content: center;
-    gap: 10px;  */
-    padding: 30px;
+    padding: 20px;
     text-align: center;
 }
 .box1 h1{
@@ -388,6 +375,7 @@ body{
     padding: 10px;
     border: none;
     width: 200px;
+    margin-top: 20px;
     
 }
 .eamil-box button{
@@ -397,8 +385,9 @@ body{
     border: none;
     cursor: pointer;   
 }
-.eamil-box input:active{
-    border: 2px solid #72aec8;
+.eamil-box input:hover{
+    background-color: #72aec8;
+
 }
 .eamil-box button:hover{
     transition: 2s;
@@ -460,62 +449,78 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* margin: 20px auto; */
+    margin: 30px auto;
     opacity: 1;
 }
+.sub2,.sub3,.sub4 {
+    text-align: center;
+    text-align: justify;
+    padding: 10px;
+   
+}
+/* .left{
+    text-align: center;
+} */
 .sub1 p{
-    max-width: 300px;
-      color: gray;
-      font-size: 20px;
-      line-height: 1.2;
+     max-width: 300px;
+      color:whitesmoke;
+      font-size: 18px;
+      line-height: 1.5;
 }
 .sub1 i{
-    color:gray;
-    font-size: 15px;
+    color:white;
+    font-size: 25px;
     padding: 10px;
 }
 .sub1 i:hover{
-    color: #72aec8;
+    color:white;
 }
 .sub2 h3{
-    color: #23272b;
+    color: black;
     font-size: 20px;
-    padding: 10px;
+    padding: 15px;
+    text-align: start;
     text-transform: uppercase;
 }
 .sub2 p a{
     text-decoration: none;
     display: block;
-    color:#23272b;
+    color:black;
     font-size: 18px;
+    padding: 5px;
 }
 .sub2 p a:hover{
-    color: #72aec8;
+    color: white;
 }
 .sub3 h3{
-    color: #23272b;
+    color:black;
     font-size: 20px;
-    padding: 10px;
+    padding: 15px;
+    text-align: start;
     text-transform: uppercase;
 }
 .sub3 p a{
     text-decoration: none;
     display: block;
-    color:#23272b;
+    color:black;
     font-size: 18px;
+    padding: 5px;
 }
 .sub3 p a:hover{
-    color: #72aec8;
+    color: #eff3f5;
 }
 .sub4 h3{
-    color: #23272b;
+    color: black;
     font-size: 20px;
-    padding: 10px;
+    padding: 15px;
+    text-align: start;
     text-transform: uppercase;
 }
 .sub4 p a{
- text-decoration: none;
- color: #23272b;
+ font-size: 16px;
+ line-height: 1.5;
+ color: #e2e5e7;
+ padding: 5px;
 }
 .sub4 p a:hover{
     color: #72aec8
@@ -529,20 +534,29 @@ body{
     margin: 20px;
  }
  .maincon h3{
-    color:gray;
+    color:white;
  }
-.last1 img:hover{
-    background-color: #72aec8;
+ .lastcontain{
+    margin-top: 50px;
  }
- .last2 img:hover{
-    background-color: #72aec8;
+.last1 img{
+    /* background-color: #72aec8; */
+    padding: 5px;
+   
+ }
+ .last2 img{
+     padding: 5px;
+     width: 50px;
  }
 .last3 h3 a{
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #23272b;
 }
 .last3 h3 a:hover{
     color: #72aec8;
+}
+.footer-container{
+    background:linear-gradient(#72aec8,#023449);
 }
 
  
