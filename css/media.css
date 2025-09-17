@@ -127,15 +127,13 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    /* justify-content: space-evenly; */
-    /* padding: 20px; */
-    /* width: 100%; */
 }
 .footer-container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items:flex-start;
+    /* margin: 20px auto; */
     opacity: 1;
     gap: 10px;
     margin: 0 0px;
