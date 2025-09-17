@@ -13,11 +13,14 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px;
+    align-items: center;
+    padding: 10px;
  }
  .logo{
-    font-size: 18px;
-    color:rgba(17, 14, 14, 0.689);
+    width: 150px;
+ }
+ .logo img{
+    width: 100%;
  }
  ul {
     list-style: none;
@@ -30,15 +33,19 @@ body{
     text-decoration: none;
     padding: 20px;
     font-size: 20px;
-    color: #72aec8;
+    color: #3699c4;
+    align-items: center;
  }
   nav li a:hover{
     color: #023449;
     transition: 0.2s ease;
   }
-  .icons{
+  .icon{
     font-size: 20px;
-    color: #23272b
+    color: #021118
+  }
+  .icon i{
+    margin: 10px;
   }
   .bars{
     display: none;
@@ -64,6 +71,7 @@ body{
   }
   .logo{
     align-self:self-start;
+
   }
 .logo a{
     text-decoration: none;
