@@ -64,7 +64,7 @@
 }
 .tittle {
     max-width: 300px;
-     font-size:30px;
+    font-size:30px;
 }
 .banner-img-1 {
     width: 280px;
@@ -101,11 +101,6 @@
     font-size: 15px;
     text-align: center;
 } 
-/* .eamil-box{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-} */
 .eamil-box input{
     padding: 10px;
     border: none;
@@ -132,18 +127,23 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items:flex-start;
+    align-items:start;
+    padding: 10px;
     /* margin: 20px auto; */
     opacity: 1;
     gap: 10px;
     margin: 0 0px;
 
 }
+.sub1 img{
+    padding: 10px;
+}
 .sub1 p{
       max-width: 200px;
-      color: gray;
-      font-size: 15px;
-      line-height: 1.2;
+      color:white;
+      font-size: 18px;
+      line-height: 1.5;
+      padding-left: 10px;
 }
 .sub2 h3{
     color: #23272b;
@@ -156,11 +156,14 @@
     flex-direction:column;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    /* gap: 20px; */
     /* justify-content: space-around; */
     /* margin: 20px; */
  }
  .last3{
-    max-width: 200px;
+    max-width: 300px;
+ }
+  .lastcontain{
+    margin-top: 10px;
  }
 }
